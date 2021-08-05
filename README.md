@@ -20,7 +20,7 @@ If you are using Maven just add the following to your `pom.xml`
     <dependency>
         <groupId>com.github.Pequla</groupId>
         <artifactId>ServerPing</artifactId>
-        <version>1.1</version>
+        <version>v1.1</version>
     </dependency>
     <dependency>
         <groupId>com.google.code.gson</groupId>
