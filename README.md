@@ -8,16 +8,26 @@ just found it.
 If you are using Maven just add the following to your `pom.xml`
 
 ```xml
-<repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-</repository>
-
-<dependency>
-    <groupId>com.github.Pequla</groupId>
-    <artifactId>ServerPing</artifactId>
-    <version>1.0</version>
-</dependency>
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+```xml
+<dependencies>
+    <dependency>
+        <groupId>com.github.Pequla</groupId>
+        <artifactId>ServerPing</artifactId>
+        <version>1.1</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.7</version>
+    </dependency>
+</dependencies>
 ```
 
 ### Example
