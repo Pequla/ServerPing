@@ -7,20 +7,14 @@ just found it.
 
 If you are using Maven just add the following to your `pom.xml`
 
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-```
+> This library uses [GitHub Maven Packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry) for its maven repository
+
 ```xml
 <dependencies>
     <dependency>
-        <groupId>com.github.Pequla</groupId>
-        <artifactId>ServerPing</artifactId>
-        <version>v1.1</version>
+        <groupId>com.pequla</groupId>
+        <artifactId>server-ping</artifactId>
+        <version>1.1</version>
     </dependency>
     <dependency>
         <groupId>com.google.code.gson</groupId>

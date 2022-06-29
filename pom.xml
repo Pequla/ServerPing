@@ -23,4 +23,12 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Pequla Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Pequla/ServerPing</url>
+        </repository>
+    </distributionManagement>
+
 </project>
