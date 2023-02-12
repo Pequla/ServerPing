@@ -1,25 +1,30 @@
 # ServerPing
 
-Are you looking for an easy to use Minecraft Server List Ping library with a permissive licence? Look no further, you
+Are you looking for a simple-to-use Minecraft Server List Ping library with a permissive licence? Look no further, you
 just found it.
 
 ### Usage
 
 If you are using Maven just add the following to your `pom.xml`
 
-> This library uses [GitHub Maven Packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry) for its maven repository
-
 ```xml
+<repositories>
+    <repository>
+        <id>pequla-repo</id>
+        <url>https://maven.pequla.com/releases</url>
+    </repository>
+</repositories>
+
 <dependencies>
     <dependency>
         <groupId>com.pequla</groupId>
         <artifactId>server-ping</artifactId>
-        <version>1.1</version>
+        <version>1.2</version>
     </dependency>
     <dependency>
         <groupId>com.google.code.gson</groupId>
         <artifactId>gson</artifactId>
-        <version>2.8.7</version>
+        <version>2.10.1</version>
     </dependency>
 </dependencies>
 ```
